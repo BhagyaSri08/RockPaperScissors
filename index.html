@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCKSAMPLE</title>
+    <link rel="stylesheet" href="rocksample.css">
+    <script src="https://kit.fontawesome.com/aa68c4fea3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+    <header><h1>Rock Paper Scissors</h1></header>
+    <section class="container">
+        <div class="result_field">
+            <div class="result_images">
+                <span class="user_result">
+                <!-- <i class="fa-solid fa-hand-back-fist fa-5x" id="icon"></i> -->
+                <img src="hands/rock.jpg" >
+                <h2>You</h2>
+                </span>
+                <span class="cpu_result">
+                    <!-- <i class="fa-solid fa-hand-back-fist fa-5x" id="icon"></i> -->
+                    <img src="hands/rock.jpg">
+                    <h2>Computer</h2>
+                </span>
+            </div>
+            <div class="result">
+                Let's Play!!
+            </div>
+            <div class="scores">
+                <div class="user_score">
+                    <div class="label" id="user_label" >You</div>
+                    <div class="label" id="cpu_label">Computer</div>
+                    <span id="user_marks" value="4">0</span>:<span  id="cpu_marks">0</span>
+                </div>
+            </div>
+        </div>
+        <div class="option_images">
+            <span class="option_image">
+                <!-- <i class="fa-solid fa-hand-back-fist fa-3x" id="icon"></i> -->
+                <img src="hands/rock.jpg" class="img">
+                <p>Rock</p>
+            </span>
+            <span class="option_image">
+                <!-- <i class="fa-solid fa-hand fa-3x"></i> -->
+                <img src="hands/paper.jpg" class="img">
+                <p>Paper</p>
+            </span>
+            <span class="option_image">
+                <!-- <i class="fa-solid fa-hand-scissors fa-3x"></i> -->
+                <img src="hands/scissors.jpg" class="img">
+                <p>Scissors</p>
+            </span>
+        </div>
+        <div class="restart">
+                <button class="restart_btn" onclick="window.location.reload();">RESTART</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

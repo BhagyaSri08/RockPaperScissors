@@ -171,7 +171,7 @@ img{
     align-items: center;
     justify-content: center;
 }
-@media (max-width: 600px){
+@media and screen(max-width: 600px){
     header h1{
         font-size: 40px;
         font-family:'Times New Roman', Times, serif ;

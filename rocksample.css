@@ -23,8 +23,9 @@ header h1{
     background: white;
     padding: 1rem 7rem;
     border-radius: 8px;
-    height: auto;
+/*     height: auto; */
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    height:95%;
 }
 .container.start .user_result{
     transform-origin: left;

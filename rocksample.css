@@ -16,6 +16,8 @@ header h1{
     font-size: 50px;
     font-family:'Times New Roman', Times, serif ;
     color:  black;
+    margin-top: 40px;
+
 }
 .container{
     background: white;
@@ -129,6 +131,8 @@ img{
     align-items: center;
     margin-top:2.5rem;
     justify-content: space-between;
+    margin-top: 10px;
+
     
 }
 .option_images .img{

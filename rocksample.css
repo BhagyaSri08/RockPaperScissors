@@ -95,6 +95,7 @@ header h1{
     column-gap: 7rem;
     align-items: center;
     justify-content: center;
+    margin-top: -20px;
 }
 .result_images img{
     width: 100px;
